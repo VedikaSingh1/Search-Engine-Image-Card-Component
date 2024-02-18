@@ -1,0 +1,25 @@
+.image-list {
+  margin-top: 3%;
+  columns: 6 200px;
+  column-gap: 15px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px; /* Add rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Dark box shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions */
+
+  /* Apply additional styles for better readability on light backgrounds */
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+img:hover {
+  transform: scale(1.05); /* Enlarge the image on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); /* Darker box shadow on hover */
+}
